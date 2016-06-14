@@ -1,29 +1,31 @@
-body{
-    background:#2c3e50;
-}
-*{
-    box-sizing: border-box;
-}
-a{
-	color:#FFF;
+body
+{
+	padding: 0;
+	margin: 0 ;
+	background-image: url('apple-background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover ;
+	background-position:center; 
 }
 #container
 {
 	padding: 0;
-    margin: 0 auto;
-    width:960px;
+	margin: 0 ;
 #	background: #fff;
 	font-family: sans-serif;
 }
 
 #header
 {
-	background: #ecf0f1;
-    text-align: center;
-	color:#333;
 	margin: 0;
-    line-height: 50px;
+	padding: 20px;
+	background: #ccc;
 	height:50px;
+	background-image: url('haut.jpg');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
 }
 
 #header h1 { margin: 0; }
@@ -61,18 +63,23 @@ a{
 
 #edito
 {
+	height: 400px;
 	float: left;
-	padding: 20px;
-	width: 100%;
+	padding: 0%;
+	margin: 1%;
+	width: 64%;
 	background-color: #f4fcff;
-    background:#34495e;
-	color:#ecf0f1;
-    margin:20px 0;
+	border: 1px solid #999999;
+	-webkit-border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px;
+	-webkit-box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 3px 3px #0a182e;
+	opacity: 0.8;
 }
 
 #edito h2
 {
-	color: #FFF;
+	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -81,24 +88,19 @@ div.element
 {
 	float: left;
 	width: 31%;
-	width: -webkit-calc(50% - 10px);
-    width: calc(50% - 10px);
-	padding: 20px;
-    min-height: 400px;
-    height:400px;
-	margin-bottom: 20px;
+	min-width: 400px;
+	height: 400px;
 	overflow-y: scroll;
+	margin: 1%;
 	padding: 0%;
-    background:#34495e;
-    color:#FFF;
+	background-color: #f4fcff;
+	border: 1px solid #999999;
+	-webkit-border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px;
+	-webkit-box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 3px 3px #0a182e;
+	opacity: 0.8;
 }
-div.element:nth-child(odd){
-    margin-left:20px;
-}
-div.element:nth-child(even){
-    margin-left: 0;
-}
-
 
 div.element img
 {
@@ -134,5 +136,8 @@ h2,h3
 	font-weight: bold;
 	padding: 20px;
 	height: 1%;
+	background-image: url('bas.jpg');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
 }
-
