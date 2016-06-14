@@ -92,10 +92,10 @@ div.element
     background:#34495e;
     color:#FFF;
 }
-div.element:nth-child(even){
+div.element:nth-child(odd){
     margin-left:20px;
 }
-div.element:nth-child(odd){
+div.element:nth-child(even){
     margin-left: 0;
 }
 
